@@ -1,0 +1,26 @@
+{
+  "name": "sharp-nodejs",
+  "version": "1.0.0",
+  "description": "Backend for the Sharp image processing library",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "pako": "^2.1.0",
+    "sharp": "^0.32.6"
+  }
+}
